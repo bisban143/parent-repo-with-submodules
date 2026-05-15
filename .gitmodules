@@ -1,0 +1,12 @@
+[submodule "repo1-java21"]
+	path = repo1-java21
+	url = https://github.com/bisban143/Repo1_for_blitzy_submod_test.git
+	branch = main
+[submodule "repo1-java11"]
+	path = repo1-java11
+	url = https://github.com/bisban143/Repo1_for_blitzy_submod_test.git
+	branch = java11-compatible
+[submodule "repo2-python"]
+	path = repo2-python
+	url = https://github.com/bisban143/Repo2_for_blitzy_submod_test.git
+	branch = main
