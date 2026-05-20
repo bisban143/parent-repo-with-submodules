@@ -10,3 +10,7 @@
 	path = repo2-python
 	url = https://github.com/bisban143/Repo2_for_blitzy_submod_test.git
 	branch = main
+[submodule "repo1-weather"]
+	path = repo1-weather
+	url = https://github.com/bisban143/Repo1_for_blitzy_submod_test.git
+	branch = feature/weather

@@ -4,7 +4,7 @@ This repository demonstrates Git submodules by linking to multiple branches acro
 
 ## Submodules
 
-This repository contains 3 submodules:
+This repository contains 4 submodules:
 
 ### 1. repo1-java21
 - **Repository**: `bisban143/Repo1_for_blitzy_submod_test`
@@ -16,7 +16,12 @@ This repository contains 3 submodules:
 - **Branch**: `java11-compatible`
 - **Description**: Hello World application compatible with Java 11
 
-### 3. repo2-python
+### 3. repo1-weather
+- **Repository**: `bisban143/Repo1_for_blitzy_submod_test`
+- **Branch**: `feature/weather`
+- **Description**: Hello World application with weather display feature using Java 21 and wttr.in API
+
+### 4. repo2-python
 - **Repository**: `bisban143/Repo2_for_blitzy_submod_test`
 - **Branch**: `main`
 - **Description**: Hello World application using Python 3.10+ features (dataclasses, match statements)
@@ -82,6 +87,7 @@ parent-repo/
 │   │   ├── java/
 │   │   └── screenshot/
 │   └── ...
+├── repo1-weather/      → Repo1 (feature/weather branch)
 └── repo2-python/       → Repo2 (main branch)
     ├── hello_world.py
     └── test/
